@@ -26,7 +26,7 @@ class Classifier(nn.Module):
             nn.Sigmoid()    #squish between 0 and 1. 0 being not classified and 1 being classified
         )
     def forward(self, input):
-        #squish 3D tensor of image to "1D"
+        #squish 3D tensor of image to "1D" (2D tensor behaving like a 1D tensor)
         input = input.view(input.size(0), -1)
         input = self.mlp(input) # pass through MLP
         return input 
