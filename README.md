@@ -1,3 +1,2 @@
 # MNIST-prediction-with-Neural-Network
-Classifiying and predicting digits with an artificial neural network. Specifically, with a multi-layer perceptron using batch normalization and neuron dropout
-Achieves +96% Accuracies
+Classifiying and predicting digits with an artificial neural network. Specifically, with a multi-layer perceptron using batch normalization and neuron dropout.\n Achieves +96% Accuracies
